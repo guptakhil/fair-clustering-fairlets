@@ -1,0 +1,26 @@
+{
+	"bank": {
+		"fair_column" : "marital",
+		"fair_values" : ["single", "married"],
+		"distance_columns" : ["age", "balance", "duration"],
+		"split_size" : [650, 350],
+		"random_state" : 21,
+		"distance_threshold" : 400
+	},
+	"census": {
+		"fair_column" : "gender",
+		"fair_values" : ["Male", "Female"],
+		"distance_columns" : ["age", "fnlwgt", "education_num", "capital_gain", "hours_per_week"],
+		"split_size" : [400, 200],
+		"random_state" : 42,
+		"distance_threshold" : 225000
+	},
+	"diabetes": {
+		"fair_column" : "gender",
+		"fair_values" : ["Male", "Female"],
+		"distance_columns" : ["age", "time_in_hospital"],
+		"split_size" : [540, 460],
+		"random_state" : 21,
+		"distance_threshold" : 40
+	}
+}
