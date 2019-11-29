@@ -1,2 +1,8 @@
-# fair-clustering-fairlets
-Implementation of the paper "Fair Clustering Through Fairlets" by Chierichetti et al.
+### Implementation in Python
+
+#### Contributors:
+- Akhil Gupta
+- Anunay Sharma
+- Ayush Rajput
+- Badrinarayanan Rajasekaran
+- Vishnu Pratheek Challa
